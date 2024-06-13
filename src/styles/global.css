@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /* main colors */
+  --pink: #D658B3;
+  --green: #45B442;
+
+  /* base colors */
+  --gray-700: #332B31;
+  --gray-600: #4A4448;
+  --gray-500: #756C71;
+  --gray-400: #D3CFD2;
+  --gray-300: #DFDCDF;
+  --gray-200: #E9E7E9;
+  --gray-100: #F4F1F2;
+
+  --ff-sans: 'Oxygen', sans-serif;
+  --fw-base: 400; 
+  --fw-bold: 700;
+
+  --fs-xl: 1.5rem;
+  --fs-lg: 1.125rem;
+  --fs-base: 1rem;
+  --fs-sm: .875rem;
+  --fs-xs: .75rem;
+}
+
+html{
+  background-color: var(--gray-200);
+}
+

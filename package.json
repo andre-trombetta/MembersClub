@@ -3,7 +3,7 @@
   "description": "Aplicação para cartão de fidelidade",
   "author": "André Trombetta",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
+    "server": "json-server --watch dbserver.json --port 3333",
     "build": "webpack",
     "dev": "webpack server"
   },
