@@ -33,3 +33,11 @@ html{
   background-color: var(--gray-200);
 }
 
+h1{
+  font: var(--fw-bold) var(--fs-xl)/1.4 var(--ff-sans);
+}
+
+span{
+  font: var(--fw-base) var(--fs-base)/1.4 var(--ff-sans);
+  color: var(--gray-500);
+}

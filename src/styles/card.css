@@ -1,0 +1,89 @@
+.card{
+  /* display: flex-box; */
+  grid-area: "card";
+
+  margin-top: 4rem;
+
+  width: 35.5rem;
+  height: 20.8125rem;
+
+  background-color: white;
+
+  border-radius: 1.25rem;
+
+  & .topcard{
+    display: flex;
+
+    gap: 3.0625rem;
+
+    margin-top: 2.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    /* width: 19.125rem;
+    height: 2.5rem; */
+
+    & .carddescription{
+      font: var(--fw-bold) var(--fs-xs)/1.4 var(--ff-sans);
+      color: var(--gray-500);
+
+
+      width: 19.125rem;
+      height: 2.5;
+      & span{
+        font: var(--fw-base) var(--fs-xs)/1.4 var(--ff-sans);
+      }
+    }
+
+
+    & .desccardid{
+      font: var(--fw-bold) var(--fs-sm)/1.4 var(--ff-sans);
+      color: var(--gray-500);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      border-radius: 62.5rem;
+      background-color: var(--gray-300);
+
+      width: 9.375rem;
+      height: 2rem;
+    }
+
+  }
+
+  & .bottoncard{
+    /* border: 1px solid red; */
+    
+    display: grid;
+    grid: repeat(2, 5.5rem) / auto-flow 5.5rem;
+
+    gap: 1rem 1rem;
+
+    width: 31.5rem;
+    height: 12rem;
+
+    margin: 2rem 2rem;
+
+    & .cardslot{
+      display: grid;
+
+      justify-content: center;
+      align-items: center;
+
+
+      width: 5.5rem;
+      height: 5.5rem;
+
+      border-radius: 1.25rem;
+
+      background-color: var(--gray-200);
+
+      & img{
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+}

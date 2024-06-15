@@ -20,7 +20,7 @@ header{
     }
   }
 
-  .cardID{
+  .inputcardid{
     display: flex;
     justify-content: center;
 
@@ -84,11 +84,10 @@ header{
  @media (width < 80em){
   header{
      .logo{
-    
       margin-top: 2rem;
-      background-color: aqua;
+
       & img {
-        max-width: 6.214375rem;
+        max-width: 6.25rem;
         max-height: 3rem;
       }
     }
@@ -96,7 +95,7 @@ header{
     & .cardID{ 
       margin-top: 1rem;
       input{
-        width: 21.9375rem;
+        width: 21.875rem;
       }
     }
   }
