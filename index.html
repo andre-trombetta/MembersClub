@@ -41,7 +41,7 @@
           CARTÃO FIDELIDADE<br>
           <span>Ao fazer cortes de cabelo, o décimo sai de graça!</span>
         </div>
-        <div class="desccardid">
+        <div class="desccardid" id="idcard">
           ID: 123-132-132-132
         </div>
       </div>
@@ -69,15 +69,15 @@
     <div class="progress">
       <div class="remaining">
         <div class="progdescription">
-          <strong>3</strong>
+          <strong id="remainingcuts">0</strong>
           <span>cortes restantes</span>
         </div>
         <div class="progressbar">
           <div class="progressimgbg">
-            <div class="progressimg"></div>
+            <div class="progressimg" id="remainingbar"></div>
           </div>
-          <div class="progressdesc">
-            7 de 10
+          <div class="progressdesc" id="remainingcount">
+            0 de 0
           </div>
         </div>
       </div>
@@ -87,10 +87,10 @@
     </div>
     <div class="log">
       <div class="logtitle">
-        <span>HISTÓRICO</span><span class="cutsdone">7 cortes</span>
+        <span>HISTÓRICO</span><span class="cutsdone" id="logCuts">0 cortes</span>
       </div>
-      <ul class="cutslist">
-        <il class="cutitem">
+      <ul class="cutslist" id="logList">
+        <!-- <il class="cutitem">
           <div>
             <strong>29/04/2024</strong><br><span>18:30</span>
           </div>
@@ -101,37 +101,8 @@
             <strong>29/04/2024</strong><br><span>18:30</span>
           </div>
             <img src="src/assets/checkhist.svg" alt="">
-        </il>
-        <il class="cutitem">
-          <div>
-            <strong>29/04/2024</strong><br><span>18:30</span>
-          </div>
-            <img src="src/assets/checkhist.svg" alt="">
-        </il>
-        <il class="cutitem">
-          <div>
-            <strong>29/04/2024</strong><br><span>18:30</span>
-          </div>
-            <img src="src/assets/checkhist.svg" alt="">
-        </il>
-        <il class="cutitem">
-          <div>
-            <strong>29/04/2024</strong><br><span>18:30</span>
-          </div>
-            <img src="src/assets/checkhist.svg" alt="">
-        </il>
-        <il class="cutitem">
-          <div>
-            <strong>29/04/2024</strong><br><span>18:30</span>
-          </div>
-            <img src="src/assets/checkhist.svg" alt="">
-        </il>
-        <il class="cutitem">
-          <div>
-            <strong>29/04/2024</strong><br><span>18:30</span>
-          </div>
-            <img src="src/assets/checkhist.svg" alt="">
-        </il>
+        </il> -->
+        
       </ul>
     </div>
   </div>

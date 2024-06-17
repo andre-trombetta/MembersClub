@@ -19,9 +19,7 @@ form.onsubmit = async(event) => {
 
     console.log(data.loyaltyCard)
 
-    const test = data.loyaltyCard
-    console.log(test)
-    setCardInfo(test);
+    setCardInfo(data.loyaltyCard, id);
     setLogInfo(data.appointmentHistory);
     setProfileInfo(data.name, data.clientSince);
     setRemainingInfo(data.loyaltyCard)
