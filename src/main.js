@@ -11,3 +11,6 @@ import "./styles/main.css"
 import "./styles/card.css"
 import "./styles/progress.css"
 import "./styles/log.css"
+
+//JS
+import "./modules/submit.js"

@@ -10,6 +10,9 @@
 
   overflow: scroll;
 
+  
+
+
   & .logtitle{
     display: flex;
 
@@ -19,6 +22,7 @@
     justify-content: space-between;
 
     color: var(--gray-500);
+    
 
     & span:nth-child(1){
       font: var(--fw-bold) var(--fs-xs)/1.4 var(--ff-sans);
@@ -28,7 +32,7 @@
     }
   }
 
-  & .cutslist{
+  & ul{
     display: grid;
 
 
@@ -43,7 +47,7 @@
     
 
     border-top: 1px solid var(--gray-300);
-    & .cutitem{
+    & il{
       display: flex;
 
       justify-content: space-between;
