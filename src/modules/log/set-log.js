@@ -9,7 +9,7 @@ export function setLogInfo(appointmentHistory)
   logCuts.textContent = (appointmentHistory.length + 1) + " cortes"
 
   for(let i = 0; i < appointmentHistory.length; i++){
-    //
+    
     const il = document.createElement("il")
     const div = document.createElement("div")
     const strong = document.createElement("strong")
