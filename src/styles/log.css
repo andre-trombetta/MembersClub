@@ -1,0 +1,54 @@
+.log{
+  grid-area: log;
+
+  width: 20rem;
+  height: 22.5rem;
+
+  background-color: white;
+
+  border-radius: 1.25rem;
+
+  overflow: scroll;
+
+  & .logtitle{
+    display: flex;
+
+    margin-top: 1.75rem;
+    margin-left: 1.5rem;
+    margin-right: 0.875rem;
+    justify-content: space-between;
+
+    color: var(--gray-500);
+
+    & span:nth-child(1){
+      font: var(--fw-bold) var(--fs-xs)/1.4 var(--ff-sans);
+    }
+    & span:nth-child(2){
+      font: var(--fw-regular) var(--fs-xs)/1.4 var(--ff-sans);
+    }
+  }
+
+  & .cutslist{
+    display: grid;
+
+
+    gap: 0.75rem;
+
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 0.875rem;
+
+    padding-top: 0.75rem;
+
+    
+
+    border-top: 1px solid var(--gray-300);
+    & .cutitem{
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+  }
+}

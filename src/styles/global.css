@@ -29,6 +29,26 @@
   --fs-xs: .75rem;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-300);
+  border-radius: 62.4375rem;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar:horizontal{
+  display: none;
+}
+
 html{
   background-color: var(--gray-200);
 }

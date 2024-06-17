@@ -1,16 +1,15 @@
 .profile {
-  grid-area: "profile";
+  grid-area: profile;
   display: flex;
   gap: 1rem;
 
-  align-items:flex-start;
 
   border-radius: 1rem;
 
   background-color: white;
 
-  width: 20rem;
-  height: 5.625rem;
+  max-width: 20rem;
+  max-height: 5.625rem;
 
   margin-top: 4rem;
 

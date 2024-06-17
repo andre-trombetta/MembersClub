@@ -3,13 +3,12 @@
   grid-template-areas: 
   "profile card"
   "log card"
-  "log card"
-  "log progress"
-  ;
-  
+  "log progress";
 
-  gap: 1.5rem;
+  justify-content: center; 
+
+  gap: 1rem 1.5rem;
 
   
-  justify-content: center;
+  
 }
